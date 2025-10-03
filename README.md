@@ -1,9 +1,9 @@
-# bank-churn-analysis-tableau
+# Bank Churn Analysis in Tableau
 
 # 🏦 Project Background
 
 
-This study project is based on the [Bank Customer Churn Dataset] from Kaggle. The dataset simulates a European retail bank with around 10,000 clients, offering personal accounts, savings, loans, and credit products in Germany, Spain, and France. This year, a major challenge for the company has been its customer churn – a big percentage of clients closed their accounts and left. As a data analyst, I was tasked with understanding churn patterns and finding the main risk factors.
+This study project is based on the [Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset) from Kaggle. The dataset simulates a European retail bank with around 10,000 clients, offering personal accounts, savings, loans, and credit products in Germany, Spain, and France. This year, a major challenge for the company has been its customer churn – a big percentage of clients closed their accounts and left. As a data analyst, I was tasked with understanding churn patterns and finding the main risk factors.
 
 The bank's key business metrics include:
 - **Churn Rate:** 20.37% (2,037 clients out of 10,000 left in 2025)
@@ -20,6 +20,8 @@ Insights and recommendations are provided on the following key areas:
 - **4. Balance** 
 
 ⭐️ An interactive Tableau dashboard used to report and explore churn drivers can be found here: [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/kateryna.romaniuk/viz/BankChurnRateAnalysis_17577783591580/ChurnDashboardLight)
+
+<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/bank%20churn%20analysis.png?raw=true" height="600" alt="Bank Churn Dashboard">
 
 
 
@@ -52,21 +54,21 @@ Three main insights for stakeholders:
 * 32.4% of German customers churned. This percentage was far smaller in Spain in France - both countries had about 16% of customers who left.
 This suggests operational, cultural, or service issues specific to the German market.
 
-<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20country.png?raw=true" height="300" alt="Visualization: Churn by Country">
+<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20country.png?raw=true" height="250" alt="Visualization: Churn by Country">
 
 ### 2. Age
 * 46–55: Highest churn at 50%, followed by 56–65 at 48.5%.
 * Younger groups (18–35) churn much less (≈8%).
 This indicates the bank is losing established, mid-life customers who typically hold larger balances.
 
-<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20age.png?raw=true" height="300" alt="Visualization: Churn by Age">
+<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20age.png?raw=true" height="250" alt="Visualization: Churn by Age">
 
 ### 3. Credit Score
 * Churn is relatively stable across credit scores (19–24%).
 * Customers with very low credit scores (300–499) show the highest churn (23.7%).
 Suggests churn is not strongly credit-score driven, but slightly worse at the bottom of the range.
 
-<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20credit%20score.png?raw=true" height="400" alt="Visualization: Churn by Credit Score">
+<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20credit%20score.png?raw=true" height="350" alt="Visualization: Churn by Credit Score">
 
 ### 4. Balance
 * Customers with ≤€25K balances churned at 66.7%.
@@ -74,7 +76,7 @@ Suggests churn is not strongly credit-score driven, but slightly worse at the bo
 * Mid-range balances (25K–200K) have much lower churn (~23%).
 This indicates the bank is failing both low-income and high-net-worth clients, though for different reasons (possibly poor benefits for the wealthy, lack of incentives for small savers).
 
-<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20balance.png?raw=true" height="400" alt="Visualization: Churn by Balance">
+<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20balance.png?raw=true" height="350" alt="Visualization: Churn by Balance">
 
 
 
