@@ -23,7 +23,7 @@ Insights and recommendations are provided on the following key areas:
 
 
 
-# Data Structure & Initial Checks
+# 📂 Data Structure & Initial Checks
 The dataset simulates a bank CRM system with the following key fields:
 - *CustomerID*  – unique customer identifier
 - *Country* – customer’s country of residence
@@ -38,15 +38,15 @@ Initial checks included ensuring consistent currency formatting (€, thousands)
 
 
 
-# Executive Summary
-Three main insights for stakeholders, they are:
-1. Germany has the highest churn rate (32.4%), almost double Spain and France.
-2. Middle-aged customers (46–65) are leaving at the highest rates (≈50%), highlighting a retention issue in the bank’s most financially valuable segment.
-3. Customers with either very low balances (≤25K) or very high balances (200K+) are more likely to churn, showing that both ends of the wealth spectrum feel underserved.
+# 📌 Executive Summary
+Three main insights for stakeholders:
+1. **Germany has the highest churn rate** (32.4%), almost double Spain and France.
+2. **Middle-aged customers (46–65) are leaving at the highest rates** (≈50%), highlighting a retention issue in the bank’s most financially valuable segment.
+3. **Customers with either very low balances (≤25K) or very high balances (200K+) are more likely to churn**, showing that both ends of the wealth spectrum feel underserved.
 
 
 
-# Insights Deep Dive
+# 🔎 Insights Deep Dive
 ### 1. Geography
 
 * 32.4% of German customers churned. This percentage was far smaller in Spain in France - both countries had about 16% of customers who left.
@@ -78,16 +78,29 @@ This indicates the bank is failing both low-income and high-net-worth clients, t
 
 
 
-# Recommendations
-1. Change market strategy for Germany: investigate service gaps (product offerings, customer service, branch coverage). Consider targeted retention campaigns.
-2. Create a retention strategy for middle-aged clients: launch loyalty programs for 45–65-year-olds, emphasizing better interest rates, financial advisory services, or bundled products.
-3. To retain low-balance customers, accessibility can be improved by for example, adding no-fee accounts or relevant digital services.
-4. To retain customers with high balances, new premium banking services with personalized account managers and exclusive benefits could be created.
-5. Implement proactive monitoring: develop predictive churn models to flag at-risk customers early (based on tenure, balance, and age group) and intervene with tailored offers.
+# ✏️ Recommendations
+1. **Improve market strategy for Germany**:  
+   - Compare fees, interest rates, and digital services with direct competitors (e.g., Deutsche Bank, Commerzbank, N26, ING) -> investigate service gaps
+   - Perform exit surveys and customer interviews to understand the reasons for leaving
+   - Consider targeted retention campaigns
+
+2. **Create a retention strategy for middle-aged clients**:  
+   - Understand life-stage needs of 45–65-year-olds (planning for retirement, education for children, investment options, etc) and create tailored products
+   - Take into account that the risk tolerance is likely to be low and emphasize security and predictability in our products  
+
+3. **To retain low-balance customers**:  
+   - Improve accessibility by offering free accounts, better digital services, or cashback programs 
+
+4. **To retain customers with high balances**:  
+   - Create premium banking services with personalized account managers and exclusive benefits  
+
+5. **Implement proactive monitoring**:  
+   - Develop predictive churn models to flag at-risk customers early using features such as tenure, balance, and age 
+   - Intervene early with tailored offers 
 
 
 
-# Assumptions and Caveats
+# 📎 Assumptions and Caveats
 - The dataset is simulated; real-world results may have other trends.
 - Country churn differences may reflect sampling bias rather than true market behavior.
 - The dataset does not capture customer satisfaction scores or transaction-level data, which would improve explanatory power.
