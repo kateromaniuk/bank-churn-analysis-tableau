@@ -14,10 +14,10 @@ The bank's key business metrics include:
 Applying descriptive analytics techniques, I discovered which customer groups are most likely to leave and where retention efforts should be focused.
 
 Insights and recommendations are provided on the following key areas:
-- **Geography**
-- **Age**
-- **Credit Score**
-- **Balance** 
+- **1. Geography**
+- **2. Age**
+- **3. Credit Score**
+- **4. Balance** 
 
 ⭐️ An interactive Tableau dashboard used to report and explore churn drivers can be found here: [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/kateryna.romaniuk/viz/BankChurnRateAnalysis_17577783591580/ChurnDashboardLight)
 
@@ -47,37 +47,34 @@ Three main insights for stakeholders, they are:
 
 
 # Insights Deep Dive
-### Category 1: Geography
+### 1. Geography
 
-* In Germany, 32.4% of customers churned. This percentage was far smaller in Spain in France - both countries had about 16% of customers who left.
+* 32.4% of German customers churned. This percentage was far smaller in Spain in France - both countries had about 16% of customers who left.
 This suggests operational, cultural, or service issues specific to the German market.
 
-[Visualization: Churn by Country]
+![Visualization: Churn by Country](https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20country.png?raw=true)
 
-### Category 2: Age
-
+### 2. Age
 * 46–55: Highest churn at 50%, followed by 56–65 at 48.5%.
 * Younger groups (18–35) churn much less (≈8%).
 This indicates the bank is losing established, mid-life customers who typically hold larger balances.
 
-[Visualization: Churn by Age]
+![Visualization: Churn by Age](https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20age.png?raw=true)
 
-### Category 3: Credit Score
-
+### 3. Credit Score
 * Churn is relatively stable across credit scores (19–24%).
 * Customers with very low credit scores (300–499) show the highest churn (23.7%).
 Suggests churn is not strongly credit-score driven, but slightly worse at the bottom of the range.
 
-[Visualization: Churn by Credit Score]
+![Visualization: Churn by Credit Score](https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20credit%20score.png?raw=true)
 
-### Category 4: Balance
-
+### 4. Balance
 * Customers with ≤€25K balances churned at 66.7%.
 * Customers with €200K+ balances churned at 55.9%.
 * Mid-range balances (25K–200K) have much lower churn (~23%).
 This indicates the bank is failing both low-income and high-net-worth clients, though for different reasons (possibly poor benefits for the wealthy, lack of incentives for small savers).
 
-[Visualization: Churn by Balance]
+![Visualization: Churn by Balance](https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20balance.png?raw=true)
 
 
 
