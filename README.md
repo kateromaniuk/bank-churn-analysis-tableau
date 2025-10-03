@@ -1,39 +1,45 @@
 # bank-churn-analysis-tableau
 
-# Project Background
+# 🏦 Project Background
 
-The company is a European retail bank operating in Germany, Spain, and France, with around 10,000 clients. Its business model focuses on offering personal banking services, including savings accounts, loans, and credit products. A major challenge for the bank is customer churn – when clients close their accounts and leave.
 
-As a data analyst at the bank, I was tasked with understanding churn patterns and identifying risk factors. The company’s key business metrics include:
+This study project is based on the [Bank Customer Churn Dataset] from Kaggle. The dataset simulates a European retail bank with around 10,000 clients, offering personal accounts, savings, loans, and credit products in Germany, Spain, and France. This year, a major challenge for the company has been its customer churn – a big percentage of clients closed their accounts and left. As a data analyst, I was tasked with understanding churn patterns and finding the main risk factors.
 
+The bank's key business metrics include:
 - **Churn Rate:** 20.37% (2,037 clients out of 10,000 left in 2025)
 - **Average Tenure:** 4.93 years for churned vs. 5.03 years for retained customers
 - **Average Balance:** €91K for churned vs. €73K for retained customers
 - **Products per Customer:** 1.48 for churned vs. 1.54 for retained customers
 
-This analysis helps leadership understand **which customer groups are most likely to leave** and where retention efforts should be focused.
+Applying descriptive analytics techniques, I discovered which customer groups are most likely to leave and where retention efforts should be focused.
 
-An interactive Tableau dashboard used to report and explore churn drivers can be found here: [Tableau Dashboard Link]
+Insights and recommendations are provided on the following key areas:
+- **Geography**
+- **Age**
+- **Credit Score**
+- **Balance** 
+
+⭐️ An interactive Tableau dashboard used to report and explore churn drivers can be found here: [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/kateryna.romaniuk/viz/BankChurnRateAnalysis_17577783591580/ChurnDashboardLight)
 
 
 
 # Data Structure & Initial Checks
 The dataset simulates a bank CRM system with the following key fields:
-- CustomerID – unique customer identifier
-- Country – customer’s country of residence
-- Age – grouped into categories for analysis
-- CreditScore – grouped from Very Low (300–499) to Very High (800–850)
-- Balance – grouped into balance ranges (€0, ≤25K, 25–75K, 75–125K, 125–200K, 200K+)
-- Tenure – number of years a customer has been with the bank
-- Products – number of products used (credit card, savings, loan, etc.)
-- Exited (Churn Flag) – binary indicator (1 = churned, 0 = retained)
+- *CustomerID*  – unique customer identifier
+- *Country* – customer’s country of residence
+- *Age* – grouped into categories for analysis
+- *CreditScore* – grouped from Very Low (300–499) to Very High (800–850)
+- *Balance* – grouped into balance ranges (€0, ≤25K, 25–75K, 75–125K, 125–200K, 200K+)
+- *Tenure* – number of years a customer has been with the bank
+- *Products* – number of products used (credit card, savings, loan, etc.)
+- *Churn* – binary indicator (1 = churned, 0 = retained)
 
 Initial checks included ensuring consistent currency formatting (€, thousands), checking for missing values, and validating customer counts across demographics.
 
 
 
 # Executive Summary
-If stakeholders take away three main insights, they are:
+Three main insights for stakeholders, they are:
 1. Germany has the highest churn rate (32.4%), almost double Spain and France.
 2. Middle-aged customers (46–65) are leaving at the highest rates (≈50%), highlighting a retention issue in the bank’s most financially valuable segment.
 3. Customers with either very low balances (≤25K) or very high balances (200K+) are more likely to churn, showing that both ends of the wealth spectrum feel underserved.
@@ -43,7 +49,7 @@ If stakeholders take away three main insights, they are:
 # Insights Deep Dive
 ### Category 1: Geography
 
-* Germany: 32.4% of churned customers, far higher than Spain (16.7%) and France (16.2%).
+* In Germany, 32.4% of customers churned. This percentage was far smaller in Spain in France - both countries had about 16% of customers who left.
 This suggests operational, cultural, or service issues specific to the German market.
 
 [Visualization: Churn by Country]
