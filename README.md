@@ -52,21 +52,21 @@ Three main insights for stakeholders, they are:
 * 32.4% of German customers churned. This percentage was far smaller in Spain in France - both countries had about 16% of customers who left.
 This suggests operational, cultural, or service issues specific to the German market.
 
-![Visualization: Churn by Country](https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20country.png?raw=true)
+<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20country.png?raw=true" height="300" alt="Visualization: Churn by Country">
 
 ### 2. Age
 * 46–55: Highest churn at 50%, followed by 56–65 at 48.5%.
 * Younger groups (18–35) churn much less (≈8%).
 This indicates the bank is losing established, mid-life customers who typically hold larger balances.
 
-![Visualization: Churn by Age](https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20age.png?raw=true)
+<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20age.png?raw=true" height="300" alt="Visualization: Churn by Age">
 
 ### 3. Credit Score
 * Churn is relatively stable across credit scores (19–24%).
 * Customers with very low credit scores (300–499) show the highest churn (23.7%).
 Suggests churn is not strongly credit-score driven, but slightly worse at the bottom of the range.
 
-![Visualization: Churn by Credit Score](https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20credit%20score.png?raw=true)
+<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20credit%20score.png?raw=true" height="400" alt="Visualization: Churn by Credit Score">
 
 ### 4. Balance
 * Customers with ≤€25K balances churned at 66.7%.
@@ -74,21 +74,21 @@ Suggests churn is not strongly credit-score driven, but slightly worse at the bo
 * Mid-range balances (25K–200K) have much lower churn (~23%).
 This indicates the bank is failing both low-income and high-net-worth clients, though for different reasons (possibly poor benefits for the wealthy, lack of incentives for small savers).
 
-![Visualization: Churn by Balance](https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20balance.png?raw=true)
+<img src="https://github.com/kateromaniuk/bank-churn-analysis-tableau/blob/main/churn%20by%20balance.png?raw=true" height="400" alt="Visualization: Churn by Balance">
 
 
 
 # Recommendations
-1. Germany Market Strategy: Investigate service gaps in Germany (e.g., product offerings, customer service, branch coverage). Consider targeted retention campaigns.
-2. Middle-Aged Client Retention: Launch loyalty programs for 45–65-year-olds, emphasizing better interest rates, financial advisory services, or bundled products.
-3. Low-Balance Customers: Improve accessibility (e.g., no-fee accounts, digital services) to encourage retention.
-4. High-Balance Customers: Create premium banking services with personalized account managers and exclusive benefits to reduce churn.
-5. Proactive Monitoring: Use predictive churn models to flag at-risk customers early (based on tenure, balance, and age group) and intervene with tailored offers.
+1. Change market strategy for Germany: investigate service gaps (product offerings, customer service, branch coverage). Consider targeted retention campaigns.
+2. Create a retention strategy for middle-aged clients: launch loyalty programs for 45–65-year-olds, emphasizing better interest rates, financial advisory services, or bundled products.
+3. To retain low-balance customers, accessibility can be improved by for example, adding no-fee accounts or relevant digital services.
+4. To retain customers with high balances, new premium banking services with personalized account managers and exclusive benefits could be created.
+5. Implement proactive monitoring: develop predictive churn models to flag at-risk customers early (based on tenure, balance, and age group) and intervene with tailored offers.
 
 
 
 # Assumptions and Caveats
-- The dataset is simulated and anonymized; real-world results may vary.
+- The dataset is simulated; real-world results may have other trends.
 - Country churn differences may reflect sampling bias rather than true market behavior.
 - The dataset does not capture customer satisfaction scores or transaction-level data, which would improve explanatory power.
-- Churn is analyzed on 2025 data only; time-series trends are not available.
+- Churn is analyzed for one year only - time-series trends are not available.
