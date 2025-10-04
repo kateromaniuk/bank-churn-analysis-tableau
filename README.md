@@ -2,7 +2,6 @@
 
 # 🏦 Project Background
 
-
 This study project is based on the [Bank Customer Churn Dataset](https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset) from Kaggle. The dataset simulates a European retail bank with around 10,000 clients, offering personal accounts, savings, loans, and credit products in Germany, Spain, and France. This year, a major challenge for the company has been its customer churn – a big percentage of clients closed their accounts and left. As a data analyst, I was tasked with understanding churn patterns and finding the main risk factors.
 
 The bank's key business metrics include:
